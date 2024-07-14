@@ -4,7 +4,7 @@ class Links extends Component {
   }
 
   static getIcon(link) {
-    const defaultColor = "#1e1e2e";
+    const defaultColor = "#11111b";
 
     return link.icon
       ? `<i class="ti ti-${link.icon} link-icon"
@@ -87,7 +87,7 @@ class Tabs extends Component {
       status-bar {
           bottom: -70px;
           height: 32px;
-          background: #1e1e2e;
+          background: #11111b;
           border-radius: 4px;
           box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
       }
@@ -112,7 +112,7 @@ class Tabs extends Component {
           bottom: 0;
           margin: auto;
           box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-          background: #1e1e2e;
+          background: #11111b;
       }
 
       .categories {
@@ -129,7 +129,7 @@ class Tabs extends Component {
           width: 100%;
           height: 100%;
           right: 100%;
-          background: #1e1e2e url("../img/bg-1.gif") repeat left;
+          background: #11111b url("../img/bg-1.gif") repeat left;
           transition: all .6s;
           # animation: scroll 25s ease-in-out infinite;
       }
@@ -168,7 +168,7 @@ class Tabs extends Component {
           right: 0;
           width: 70%;
           height: 100%;
-          background: #1e1e2e;
+          background: #11111b;
           padding: 5%;
           flex-wrap: wrap;
       }
